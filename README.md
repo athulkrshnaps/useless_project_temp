@@ -12,7 +12,7 @@
 ### Team Members
 - Team Lead: ATHULKRISHNA PS - VJEC
 - Member 2: DIYON AJU - VJEC
-- Member 3: [Name] - [College]
+
 
 ### Project Description
 ElephantFit is a fully interactive 3D fitness tracking web app built for a 5.2-ton African elephant named Jumbo. It features a real-time animated 3D elephant model on a stone turntable, 6 workout routines with physically accurate anatomical deformations (trunk curls, squats, ear flaps, walks, and mud-pool recovery), a peanut addiction tracker, a motivational AI coach named Trompo, and authentic elephant audio (rumble + trumpet). Nobody asked for this. We built it anyway.
@@ -81,7 +81,7 @@ npm run build
 ## Team Contributions
 - Athulkrishna PS: Project lead, concept design, 3D implementation, workout animations, audio engine
 - Diyon Aju: UI/UX design, component architecture, testing
-- [Name 3]: [Specific contributions]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
