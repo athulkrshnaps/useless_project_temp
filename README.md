@@ -62,10 +62,9 @@ npm run build
 - 🔄 **Reset / New Elephant** — Wipe all stats and start fresh from the navbar profile dropdown
 - 📱 **Fully Responsive** — Works on desktop and mobile
 
-### Project Documentation
-For Software:
 
-# Screenshots (Add at least 3)
+
+# Screenshots 
 <img width="1917" height="918" alt="Home Page" src="https://github.com/user-attachments/assets/db6a6f5a-9ea0-446d-96ba-9aa2d3366c97" />
 
 *Home page — 3D animated Jumbo on stone turntable with glassmorphic stats card and Coach Trompo motivational bubble*
@@ -78,17 +77,6 @@ For Software:
 
 *Peanut Overload — Jumbo trembling after eating too many peanuts, Coach Trompo yelling to stop*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Architecture: React Context (state) → HomePage (3D stage + Coach) → Jumbo3DViewer (Three.js + vertex deformation) → SoundEngine (preloaded audio pool)*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Full walkthrough: 3D elephant on turntable → Trunk Curls workout → Peanut feeding → Coach Trompo motivational messages → Reset to new elephant*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - Athulkrishna PS: Project lead, concept design, 3D implementation, workout animations, audio engine
