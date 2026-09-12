@@ -1,0 +1,236 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: #19231e;
+    background-color: #f8f6f0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Animation Keyframes for Elephant Articulation */
+@keyframes elephant-breath {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(1.015, 1.02) translateY(-2px);
+  }
+}
+
+@keyframes ear-flap {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-7deg);
+  }
+}
+
+@keyframes ear-flap-fast {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-14deg);
+  }
+}
+
+@keyframes trunk-swing {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes trunk-curl {
+  0%, 100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  50% {
+    transform: rotate(-28deg) translateY(-14px);
+  }
+}
+
+@keyframes trunk-eat {
+  0% {
+    transform: rotate(0deg) translateY(0);
+  }
+  40% {
+    transform: rotate(20deg) translateY(20px);
+  }
+  70% {
+    transform: rotate(-30deg) translateY(-20px);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+}
+
+@keyframes trunk-celebrate {
+  0%, 100% {
+    transform: rotate(-38deg) translateY(-18px) scale(1.05);
+  }
+  50% {
+    transform: rotate(-48deg) translateY(-24px) scale(1.08);
+  }
+}
+
+@keyframes leg-front-walk {
+  0%, 100% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-12deg);
+  }
+}
+
+@keyframes leg-back-walk {
+  0%, 100% {
+    transform: rotate(-12deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes elephant-squat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(22px) scale(1.04, 0.94);
+  }
+}
+
+@keyframes elephant-shiver {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(-3px, 2px);
+  }
+  40% {
+    transform: translate(3px, -2px);
+  }
+  60% {
+    transform: translate(-3px, -1px);
+  }
+  80% {
+    transform: translate(3px, 1px);
+  }
+}
+
+@keyframes mud-bob {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(6px) rotate(1.5deg);
+  }
+}
+
+@keyframes float-badge {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(2deg);
+  }
+}
+
+/* Helper animation classes */
+.anim-breath {
+  animation: elephant-breath 3.5s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+.anim-ear {
+  animation: ear-flap 3s ease-in-out infinite;
+  transform-origin: 32% 35%;
+}
+
+.anim-ear-fast {
+  animation: ear-flap-fast 0.8s ease-in-out infinite;
+  transform-origin: 32% 35%;
+}
+
+.anim-trunk-swing {
+  animation: trunk-swing 2.2s ease-in-out infinite;
+  transform-origin: 20% 50%;
+}
+
+.anim-trunk-curl {
+  animation: trunk-curl 1.4s ease-in-out infinite;
+  transform-origin: 22% 50%;
+}
+
+.anim-trunk-eat {
+  animation: trunk-eat 1.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  transform-origin: 22% 50%;
+}
+
+.anim-trunk-celebrate {
+  animation: trunk-celebrate 1.2s ease-in-out infinite;
+  transform-origin: 22% 50%;
+}
+
+.anim-leg-1 {
+  animation: leg-front-walk 0.9s ease-in-out infinite;
+  transform-origin: 40% 65%;
+}
+
+.anim-leg-2 {
+  animation: leg-back-walk 0.9s ease-in-out infinite;
+  transform-origin: 75% 65%;
+}
+
+.anim-squat {
+  animation: elephant-squat 1.6s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+.anim-panic {
+  animation: elephant-shiver 0.25s infinite;
+}
+
+.anim-mud {
+  animation: mud-bob 2.8s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+/* Custom glassmorphism and card styling */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 228, 0.7);
+}
+
+.glass-panel-dark {
+  background: rgba(18, 38, 29, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(61, 144, 106, 0.2);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2baa8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2c7353;
+}
