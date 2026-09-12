@@ -10,8 +10,8 @@
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
+- Team Lead: ATHULKRISHNA PS - VJEC
+- Member 2: DIYON AJU - VJEC
 - Member 3: [Name] - [College]
 
 ### Project Description
