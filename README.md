@@ -66,13 +66,16 @@ npm run build
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+<img width="1917" height="918" alt="Home Page" src="https://github.com/user-attachments/assets/db6a6f5a-9ea0-446d-96ba-9aa2d3366c97" />
+
 *Home page — 3D animated Jumbo on stone turntable with glassmorphic stats card and Coach Trompo motivational bubble*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+<img width="1908" height="965" alt="image" src="https://github.com/user-attachments/assets/7c66832c-4a53-4623-b197-28d4b406c6f1" />
+
 *Trunk Curls workout — Jumbo lifting a 150kg Acacia Log with anatomically accurate trunk deformation*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+<img width="1917" height="915" alt="image" src="https://github.com/user-attachments/assets/9684d032-c03c-4285-819a-67a9865c2052" />
+
 *Peanut Overload — Jumbo trembling after eating too many peanuts, Coach Trompo yelling to stop*
 
 # Diagrams
